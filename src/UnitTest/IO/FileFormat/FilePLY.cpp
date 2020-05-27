@@ -24,9 +24,30 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(FilePLY, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(FilePLY, DISABLED_ReadVertexCallback) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_AdvanceConsoleProgress) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_ReadNormalCallback) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_ReadColorCallback) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_ReadFaceCallBack) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_ReadPointCloudFromPLY) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_WritePointCloudToPLY) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_ReadTriangleMeshFromPLY) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_WriteTriangleMeshToPLY) { NotImplemented(); }
+
+TEST(FilePLY, DISABLED_ResetConsoleProgress) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

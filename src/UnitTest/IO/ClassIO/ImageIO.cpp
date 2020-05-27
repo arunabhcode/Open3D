@@ -24,9 +24,24 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(ImageIO, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(ImageIO, DISABLED_CreateImageFromFile) { NotImplemented(); }
+
+TEST(ImageIO, DISABLED_ReadImage) { NotImplemented(); }
+
+TEST(ImageIO, DISABLED_WriteImage) { NotImplemented(); }
+
+TEST(ImageIO, DISABLED_ReadImageFromPNG) { NotImplemented(); }
+
+TEST(ImageIO, DISABLED_WriteImageToPNG) { NotImplemented(); }
+
+TEST(ImageIO, DISABLED_ReadImageFromJPG) { NotImplemented(); }
+
+TEST(ImageIO, DISABLED_WriteImageToJPG) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

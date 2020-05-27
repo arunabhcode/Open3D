@@ -24,9 +24,16 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(PoseGraphIO, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(PoseGraphIO, DISABLED_CreatePoseGraphFromFile) { NotImplemented(); }
+
+TEST(PoseGraphIO, DISABLED_ReadPoseGraph) { NotImplemented(); }
+
+TEST(PoseGraphIO, DISABLED_WritePoseGraph) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

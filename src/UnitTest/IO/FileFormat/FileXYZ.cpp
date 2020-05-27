@@ -24,9 +24,14 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(FileXYZ, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(FileXYZ, DISABLED_ReadPointCloudFromXYZ) { NotImplemented(); }
+
+TEST(FileXYZ, DISABLED_WritePointCloudToXYZ) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

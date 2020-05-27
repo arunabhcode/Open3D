@@ -24,9 +24,14 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(FileXYZRGB, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(FileXYZRGB, DISABLED_ReadPointCloudFromXYZRGB) { NotImplemented(); }
+
+TEST(FileXYZRGB, DISABLED_WritePointCloudToXYZRGB) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

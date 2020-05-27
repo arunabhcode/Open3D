@@ -24,9 +24,20 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(TriangleMeshIO, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(TriangleMeshIO, DISABLED_CreateMeshFromFile) { NotImplemented(); }
+
+TEST(TriangleMeshIO, DISABLED_ReadTriangleMesh) { NotImplemented(); }
+
+TEST(TriangleMeshIO, DISABLED_WriteTriangleMesh) { NotImplemented(); }
+
+TEST(TriangleMeshIO, DISABLED_ReadTriangleMeshFromPLY) { NotImplemented(); }
+
+TEST(TriangleMeshIO, DISABLED_WriteTriangleMeshToPLY) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

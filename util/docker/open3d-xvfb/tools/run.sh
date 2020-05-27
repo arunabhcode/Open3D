@@ -13,7 +13,7 @@ mkdir -p $Open3D_HOST
 # clone Open3D from the host side, build later inside the container
 cd $Open3D_HOST
 git init -q
-git remote add origin https://github.com/IntelVCL/Open3D.git
+git remote add origin https://github.com/intel-isl/Open3D.git
 git fetch
 git checkout master
 
@@ -27,4 +27,4 @@ docker container run \
        --name $NAME \
        $NAME
 
-docker container exec -it -w $Open3D_DOCK $NAME bash -c 'mkdir -p build && cd build && cmake ../src -DCMAKE_INSTALL_PREFIX=~/open3d_install && make -j && make install && bash'
+docker container exec -it -w $Open3D_DOCK $NAME bash -c 'mkdir -p build && cd build && cmake .. -DCMAKE_INSTALL_PREFIX=~/open3d_install && make -j && make install && bash'

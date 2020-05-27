@@ -24,9 +24,26 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(FileJSON, Default)
-{
+namespace open3d {
+namespace unit_test {
+
+TEST(FileJSON, DISABLED_ReadIJsonConvertibleFromJSONStream) {
     NotImplemented();
 }
+
+TEST(FileJSON, DISABLED_WriteIJsonConvertibleToJSONStream) { NotImplemented(); }
+
+TEST(FileJSON, DISABLED_ReadIJsonConvertibleFromJSON) { NotImplemented(); }
+
+TEST(FileJSON, DISABLED_WriteIJsonConvertibleToJSON) { NotImplemented(); }
+
+TEST(FileJSON, DISABLED_ReadIJsonConvertibleFromJSONString) {
+    NotImplemented();
+}
+
+TEST(FileJSON, DISABLED_WriteIJsonConvertibleToJSONString) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

@@ -24,9 +24,18 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(FileBIN, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(FileBIN, DISABLED_ReadMatrixXdFromBINFile) { NotImplemented(); }
+
+TEST(FileBIN, DISABLED_WriteMatrixXdToBINFile) { NotImplemented(); }
+
+TEST(FileBIN, DISABLED_ReadFeatureFromBIN) { NotImplemented(); }
+
+TEST(FileBIN, DISABLED_WriteFeatureToBIN) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

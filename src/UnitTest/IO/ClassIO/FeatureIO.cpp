@@ -24,9 +24,18 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(FeatureIO, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(FeatureIO, DISABLED_ReadFeature) { NotImplemented(); }
+
+TEST(FeatureIO, DISABLED_WriteFeature) { NotImplemented(); }
+
+TEST(FeatureIO, DISABLED_ReadFeatureFromBIN) { NotImplemented(); }
+
+TEST(FeatureIO, DISABLED_WriteFeatureToBIN) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d

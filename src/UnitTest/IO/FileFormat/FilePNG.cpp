@@ -24,9 +24,16 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
-TEST(FilePNG, Default)
-{
-    NotImplemented();
-}
+namespace open3d {
+namespace unit_test {
+
+TEST(FilePNG, DISABLED_SetPNGImageFromImage) { NotImplemented(); }
+
+TEST(FilePNG, DISABLED_ReadImageFromPNG) { NotImplemented(); }
+
+TEST(FilePNG, DISABLED_WriteImageToPNG) { NotImplemented(); }
+
+}  // namespace unit_test
+}  // namespace open3d
